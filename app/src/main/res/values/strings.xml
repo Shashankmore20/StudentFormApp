@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Form Using SQLite 2</string>
+    <string name="s_name">Enter Your Name</string>
+    <string name="s_roll">Enter Your Roll Number</string>
+    <string name="s_class">Enter Your Class and Section</string>
+    <string name="submit">Submit</string>
+    <string name="e_name">Eg: (Raj, Ram)</string>
+    <string name="e_roll">Eg: (1072208XXXXX)</string>
+    <string name="e_class">Eg: (BCA, BCOM)</string>
+    <string name="v_details">View Student DataBase</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+</resources>

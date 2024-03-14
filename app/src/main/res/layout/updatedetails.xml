@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+    android:textColorHint="@color/gray"
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:importantForContentCapture="yes"
+        android:text="@string/s_name"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/e_Name"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:autofillHints="name"
+        android:ems="10"
+        android:hint="@string/e_name"
+        android:importantForContentCapture="yes"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="@string/s_roll"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/e_RollNo"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/e_roll"
+        android:importantForContentCapture="yes"
+        android:inputType="number"
+        android:textColorHint="@color/gray" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="@string/s_class"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/e_Class"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/e_class"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray" />
+
+    <Button
+        android:id="@+id/b_submit"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/submit" />
+
+</LinearLayout>
